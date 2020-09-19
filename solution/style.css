@@ -33,7 +33,7 @@ body {
 
 .top {
     height: 40vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(assets/back.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.35)), url(assets/back.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -71,7 +71,7 @@ body {
 
 .budget__income {
     margin-bottom: 10px;
-    background-color: #28B9B5;
+    background-color: rgb(36, 117, 36);;
 }
 
 .budget__expenses {
@@ -82,7 +82,7 @@ body {
 .budget__expenses--text {
     float: left;
     font-size: 13px;
-    color: #444;
+    color: #e7e7e7;
     margin-top: 2px;
 }
 
@@ -156,7 +156,7 @@ body {
     font-size: 35px;
     background: none;
     border: none;
-    color: #28B9B5;
+    color: rgb(36, 117, 36);;
     cursor: pointer;
     display: inline-block;
     vertical-align: middle;
@@ -170,7 +170,7 @@ body {
 .add__description:focus,
 .add__value:focus {
     outline: none;
-    border: 1px solid #28B9B5;
+    border: 1px solid rgb(36, 117, 36);;
 }
 
 .add__btn:focus { outline: none; }
@@ -185,6 +185,7 @@ body {
     float: left;
     width: 475px;
     margin-right: 50px;
+
 }
 
 .expenses {
@@ -199,7 +200,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-.icome__title { color: #28B9B5; }
+.icome__title { color: rgb(36, 117, 36); }
 .expenses__title { color: #FF5049; }
 
 .item {
@@ -233,7 +234,7 @@ h2 {
 
 .income .item__value,
 .income .item__delete--btn {
-    color: #28B9B5;
+    color: rgb(36, 117, 36);;
 }
 
 .expenses .item__value,
